@@ -1,0 +1,105 @@
+
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    background-color: rgb(34, 33, 33);
+}
+
+
+.main{
+    display: flex;
+}
+
+
+.sidebox{ 
+    float: left;
+    flex:1;
+    border: 5px;
+    border-color: brown;
+    background-color:black;
+    color:white;
+    border-radius: 30px;
+    margin-right: 5px;
+    width: 150px;
+    height:675px;
+    text-align: justify;
+    margin-left: 5px;
+    padding-left: 5px;
+    order: 1;
+    padding-top: 350px;
+    font-size: medium;
+    background-size: 230px 300px;
+    background-repeat: no-repeat;
+    margin-right: 5px;
+    opacity:0.8;
+    background-image: url("Screenshot_20200519_233016.png");
+    background-repeat: no-repeat;   
+    
+}
+
+
+.content{
+
+    width: 1500px;
+    background-color:black;
+    color: white;
+    border-radius: 20px;
+    opacity: 0.8;
+    flex: 4;
+    order: 2;
+    padding:7px;
+    text-align: center;
+    font-size: large;
+    height:1010px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.career{
+background-image: url("shapelined-_JBKdviweXI-unsplash.jpg");
+background-repeat: no-repeat;
+background-size: 1000px 300px;
+color:black;
+padding:10px;
+}
+
+.edu{
+    background-image: url("edu2.jpg");
+    background-repeat: no-repeat;
+    background-size: 1000px 300px;
+    text-align: center;
+    padding-left: 20px;
+    color:black;
+    padding-top: 1px;;
+
+}
+
+.train{
+    background-image: url("jefferson-santos-9SoCnyQmkzI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 500px 300px;
+    color:whitesmoke;
+    width:430px;
+    height:258px;
+    float:right;
+    text-align: center;
+    padding:30px;
+    padding-top:7px;
+    border:2px;
+
+}
+
+.skills{
+    float:left;
+    width:440px;
+    height:295px;
+    background-image: url("joanna-kosinska-1_CMoFsPfso-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: 500px 300px;
+    padding-left: 10px;
+    color: black;
+}
+
+   
+.content div{
+    border-radius:15px;
+    margin:8px;}
